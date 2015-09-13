@@ -24,6 +24,7 @@ public class Count_Primes {
             }
             if(flag==0){
                 a[j] = 1;
+                System.out.println(j+1);
             }
         }
         int sum = 0;
