@@ -3,29 +3,24 @@
  */
 public class Factorial_Trailing_Zeros {
     public static int trailingZeroes(int n){
-        int p = 0;
-        int numsOf2 = 0;
-        int numsOf5 = 0;
-        for(int i=0;i<n;i++){
-            p = n - i;
-            while(p%2==0){
-                numsOf2++;
-                p = p/2;
-            }
-            while(p%5==0){
-                numsOf5++;
-                p = p/5;
+        int p = 1;
+        long i = 5;
+        if(n<5){
+            return 0;
+        }
+        while(i<=n){
+            i = i*5;
+            p = p*5+1;
+            if(i>2147483647){
+                break;
             }
         }
-        if(numsOf2<numsOf5){
-            return numsOf2;
-        }
-        return numsOf5;
+        return p;
     }
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        System.out.println("阶乘后0的个数为: "+trailingZeroes(1808548329));
+        System.out.println("阶乘后0的个数为: "+trailingZeroes(2147483647));
         long end = System.currentTimeMillis();
         System.out.println("计算时间: " + (end - start) + "ms");
     }
