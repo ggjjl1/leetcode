@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03cdbab9-de7a-4591-a2f5-ded33f0052d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Two_Sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ZigZag_Conversion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetcode.iws" />
@@ -32,42 +32,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Count_Primes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Count_Primes.java">
+      <file leaf-file-name="ZigZag_Conversion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ZigZag_Conversion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="840">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Palindrome_Number.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Palindrome_Number.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="465">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Factorial_Trailing_Zeros.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factorial_Trailing_Zeros.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Two_Sum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Two_Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7632743" vertical-offset="0" max-vertical-offset="452">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.1659292" vertical-offset="0" max-vertical-offset="452">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/Palindrome_Number.java" />
         <option value="$PROJECT_DIR$/src/Factorial_Trailing_Zeros.java" />
         <option value="$PROJECT_DIR$/src/Two_Sum.java" />
+        <option value="$PROJECT_DIR$/src/ZigZag_Conversion.java" />
       </list>
     </option>
   </component>
@@ -603,7 +577,7 @@
       <workItem from="1442078709629" duration="1975000" />
       <workItem from="1442110815831" duration="9276000" />
       <workItem from="1442414367936" duration="5616000" />
-      <workItem from="1442540674265" duration="1174000" />
+      <workItem from="1442540674265" duration="1516000" />
     </task>
     <task id="LOCAL-00001" summary="编辑readme">
       <created>1440253031088</created>
@@ -641,11 +615,17 @@
       <option name="project" value="LOCAL" />
       <updated>1442541621238</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="用最粗暴的方法，穷举法，通过了...">
+      <created>1442552462576</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1442552462576</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80379000" />
+    <option name="totallyTimeSpent" value="80721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="6" />
@@ -732,7 +712,8 @@
     <MESSAGE value="求素数个数边计算边打印" />
     <MESSAGE value="判断一个数是否是回文数，并且不实用额外空间，通过。" />
     <MESSAGE value="AC，不过唯一遗憾的是同学想的方法。下次遇到问题时还是要自己独立思考啊！" />
-    <option name="LAST_COMMIT_MESSAGE" value="AC，不过唯一遗憾的是同学想的方法。下次遇到问题时还是要自己独立思考啊！" />
+    <MESSAGE value="用最粗暴的方法，穷举法，通过了..." />
+    <option name="LAST_COMMIT_MESSAGE" value="用最粗暴的方法，穷举法，通过了..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -743,13 +724,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Climbing_Stairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -1072,35 +1046,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Count_Primes.java">
+    <entry file="file://$PROJECT_DIR$/src/Two_Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Palindrome_Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.63053095" vertical-offset="0" max-vertical-offset="452">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Factorial_Trailing_Zeros.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state vertical-scroll-proportion="0.3318584" vertical-offset="0" max-vertical-offset="452">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Two_Sum.java">
+    <entry file="file://$PROJECT_DIR$/src/Palindrome_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7632743" vertical-offset="0" max-vertical-offset="452">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33628318" vertical-offset="13" max-vertical-offset="465">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Count_Primes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46902654" vertical-offset="388" max-vertical-offset="840">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZigZag_Conversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1659292" vertical-offset="0" max-vertical-offset="452">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
