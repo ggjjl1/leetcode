@@ -16,13 +16,18 @@ public class Invert_Binary_Tree {
     }
 
     public static TreeNode invertTree(TreeNode root) {
-        TreeNode treeNode = root;
-
-        return treeNode;
-    }
-
-    public static void printTree(TreeNode treeNode){
-
+        if(root==null){
+            return null;
+        }
+        TreeNode t;
+        while(root.left!=null && root.right!=null){
+            t = root.left;
+            root.left = root.right;
+            root.left = t;
+            invertTree(root.left);
+            invertTree(root.right);
+        }
+        return root;
     }
 
     public static void main(String[] args) {
