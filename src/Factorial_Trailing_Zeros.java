@@ -3,19 +3,11 @@
  */
 public class Factorial_Trailing_Zeros {
     public static int trailingZeroes(int n){
-        int p = 1;
-        long i = 5;
-        if(n<5){
-            return 0;
+        long p = 0;
+        for(long i=5;i<=n;i=i*5){
+            p = p+n/i;
         }
-        while(i<=n){
-            i = i*5;
-            p = p*5+1;
-            if(i>2147483647){
-                break;
-            }
-        }
-        return p;
+        return (int)p;
     }
 
     public static void main(String[] args) {
