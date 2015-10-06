@@ -20,10 +20,10 @@ public class Invert_Binary_Tree {
             return null;
         }
         TreeNode t;
-        while(root.left!=null && root.right!=null){
+        if(root.left!=null || root.right!=null){
             t = root.left;
             root.left = root.right;
-            root.left = t;
+            root.right = t;
             invertTree(root.left);
             invertTree(root.right);
         }
@@ -31,28 +31,14 @@ public class Invert_Binary_Tree {
     }
 
     public static void main(String[] args) {
-        TreeNode treeNode31 = new TreeNode(1);
-        treeNode31.left = null;
-        treeNode31.right = null;
-        TreeNode treeNode32 = new TreeNode(3);
-        treeNode32.left = null;
-        treeNode32.right = null;
-        TreeNode treeNode33 = new TreeNode(6);
-        treeNode33.left = null;
-        treeNode33.right = null;
-        TreeNode treeNode34 = new TreeNode(9);
-        treeNode34.left = null;
-        treeNode34.right = null;
-        TreeNode treeNode21 = new TreeNode(2);
-        treeNode32.left = treeNode31;
-        treeNode32.right = treeNode32;
-        TreeNode treeNode22 = new TreeNode(7);
-        treeNode32.left = treeNode33;
-        treeNode32.right = treeNode34;
-        TreeNode treeNode11 = new TreeNode(4);
-        treeNode32.left = treeNode21;
-        treeNode32.right = treeNode22;
-        TreeNode treeNode = treeNode11;
-        invertTree(treeNode11);
+        TreeNode t1 = new TreeNode(1);
+        TreeNode t2 = new TreeNode(2);
+        TreeNode t3 = new TreeNode(3);
+        t1.left = t2;
+        t1.right = t3;
+        TreeNode t = t1.left;
+        t1.left = t1.right;
+        t1.right = t;
+        System.out.println(t1.left.val);
     }
 }
