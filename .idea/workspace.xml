@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03cdbab9-de7a-4591-a2f5-ded33f0052d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Longest_Substring_Without_Repeating_Characters.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Longest_Substring_Without_Repeating_Characters.java" afterPath="$PROJECT_DIR$/src/Longest_Substring_Without_Repeating_Characters.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetcode.iws" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="Longest_Substring_Without_Repeating_Characters.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Longest_Substring_Without_Repeating_Characters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16666667">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.4074074">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -149,7 +149,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,6 +183,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -605,7 +605,9 @@
       <workItem from="1444212454553" duration="2515000" />
       <workItem from="1445045757588" duration="13799000" />
       <workItem from="1445661157601" duration="373000" />
-      <workItem from="1448201128582" duration="29000" />
+      <workItem from="1448201128582" duration="401000" />
+      <workItem from="1448378207373" duration="854000" />
+      <workItem from="1448583276080" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="编辑readme">
       <created>1440253031088</created>
@@ -679,11 +681,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445098124825</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="随便提交一下">
+      <created>1448201177014</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1448201177014</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106941000" />
+    <option name="totallyTimeSpent" value="108846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1458" height="928" extended-state="0" />
@@ -773,7 +781,8 @@
     <MESSAGE value="ZigZag AC." />
     <MESSAGE value="Invert Binary Tree AC. PS: so easy!!!" />
     <MESSAGE value="something AC" />
-    <option name="LAST_COMMIT_MESSAGE" value="something AC" />
+    <MESSAGE value="随便提交一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="随便提交一下" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1096,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47594678">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36697248">
           <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,10 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36847493">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#355#371#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,7 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325554">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,8 +1146,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Longest_Substring_Without_Repeating_Characters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16666667">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.4074074">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
