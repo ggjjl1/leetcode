@@ -1,28 +1,36 @@
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by ggjjl1 on 10/18/15.
  */
 public class Longest_Substring_Without_Repeating_Characters {
-    public int lengthOfLogestSubstring(String s){
-        int len = s.length();
-        for(int i=0;i<len;i++){
-            
-        }
-        return 0;
-    }
-
-    public boolean isParanStr(String str){
-        for(int i=1;i<str.length();i++){
-            if(str.length()%i==0){
-                StringBuffer sb = new StringBuffer("");
-                String subStr = str.substring(0, i);
-                for(int j=0;j<str.length()/i;j++) {
-                    sb.append(subStr);
+    public static int lengthOfLogestSubstring(String s){
+        int maxSubStrLen = 0;
+        for(int i=0;i<s.length();i++){
+            int subStrLen = 0;
+            Set wordSet = new HashSet();
+            for(int j=i;j<s.length();j++){
+                if(wordSet.contains(s.charAt(j))){
+                    String newSubStr = s.substring(i, j);
+                    if(newSubStr.length() > maxSubStrLen){
+                        maxSubStrLen = newSubStr.length();
+                    }
+                    break;
+                }else{
+                    wordSet.add(s.charAt(j));
+                    subStrLen++;
                 }
-                if(sb.toString().equals(str)){
-                    return false;
+                if(subStrLen>maxSubStrLen){
+                    maxSubStrLen = subStrLen;
                 }
             }
         }
-        return true;
+        return maxSubStrLen;
+    }
+
+    public static void main(String[] args) {
+        String testStr = "aa";
+        System.out.println(lengthOfLogestSubstring(testStr));
     }
 }
