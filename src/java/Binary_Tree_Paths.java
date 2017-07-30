@@ -1,3 +1,5 @@
+package java;
+
 import apple.laf.JRSUIUtils;
 
 import javax.sound.midi.Soundbank;
