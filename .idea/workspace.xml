@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="937588ea-d4fa-4bbd-ab96-0df03f9fe516" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/python/Median_of_Two_Sorted_Arrays.py" afterPath="$PROJECT_DIR$/src/python/Median_of_Two_Sorted_Arrays.py" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="Median_of_Two_Sorted_Arrays.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/python/Median_of_Two_Sorted_Arrays.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="345">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -913,7 +912,7 @@
       <workItem from="1497782321803" duration="1026000" />
       <workItem from="1498659740017" duration="10264000" />
       <workItem from="1501311818520" duration="1291000" />
-      <workItem from="1501314408942" duration="3267000" />
+      <workItem from="1501314408942" duration="3338000" />
     </task>
     <task id="LOCAL-00001" summary="调整目录结构，增加python代码">
       <created>1501384219061</created>
@@ -922,11 +921,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501384219061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Median of Two Sorted Arrays 增加一种时间复杂度为 O(m+n) 的算法">
+      <created>1501602597439</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501602597439</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20648000" />
+    <option name="totallyTimeSpent" value="20719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -972,7 +978,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="调整目录结构，增加python代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整目录结构，增加python代码" />
+    <MESSAGE value="Median of Two Sorted Arrays 增加一种时间复杂度为 O(m+n) 的算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Median of Two Sorted Arrays 增加一种时间复杂度为 O(m+n) 的算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1128,8 +1135,8 @@
     <entry file="file://$PROJECT_DIR$/src/python/Median_of_Two_Sorted_Arrays.java" />
     <entry file="file://$PROJECT_DIR$/src/python/Median_of_Two_Sorted_Arrays.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding />
         </state>
       </provider>
