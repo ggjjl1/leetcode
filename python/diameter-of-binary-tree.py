@@ -9,12 +9,16 @@ class TreeNode(object):
         self.right = None
 
 class Solution(object):
+    def __init__(self):
+        self.maxDiameter = 0
+
     def diameterOfBinaryTree(self, root):
         """
         :type root: TreeNode
         :rtype: int
         """
-        diameter = 0
+        self.binaryTreeTraversaling(root)
+        return self.maxDiameter
 
     def maxdepthOfBinaryTree(self, treeNode):
         "给定一棵二叉树，返回树的最大深度"
@@ -32,7 +36,13 @@ class Solution(object):
     def binaryTreeTraversaling(self, treeNode):
         "遍历二叉树"
         if treeNode is not None:
-            print(treeNode.val)
+            leftDepth = 0
+            rightDepth = 0
+            if treeNode.left is not None: 
+                leftDepth = self.maxdepthOfBinaryTree(treeNode.left)
+            if treeNode.right is not None:
+                rightDepth = self.maxdepthOfBinaryTree(treeNode.right)
+            self.maxDiameter = (leftDepth + rightDepth) if self.maxDiameter < (leftDepth + rightDepth) else self.maxDiameter
             self.binaryTreeTraversaling(treeNode.left)
             self.binaryTreeTraversaling(treeNode.right)
 
@@ -48,7 +58,8 @@ def main():
     treenode2.left = treenode4
     treenode2.right = treenode5
     s = Solution()
-    depth = s.binaryTreeTraversaling(treenode1)
+    # depth = s.binaryTreeTraversaling(treenode1)
+    print(s.diameterOfBinaryTree(treenode1))
 
 if __name__ == '__main__':
     main()
