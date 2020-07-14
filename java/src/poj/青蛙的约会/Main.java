@@ -24,29 +24,26 @@ public class Main {
     return a % b;
   }
 
-  public static void main(String[] args) throws Exception {
-    // Scanner in = new Scanner(System.in);
-    // long x = in.nextLong();
-    // long y = in.nextLong();
-    // long m = in.nextLong();
-    // long n = in.nextLong();
-    // long L = in.nextLong();
-    // in.close();
-    // Main mn = new Main();
-    // long d = mn.gcd(L, m-n);
-    // if((x-y)%d == 0){
-    //   for(long t=0;t<L;t++) {
-    //     if((m-n)*t%L == (x-y)){
-    //       System.out.printf("%d, %d %n", m-n, (m-n)*t%L);
-    //       System.out.printf("%d %n", t);
-    //       break;
-    //     }
-    //   }
-    // }
-    // else {
-    //   System.out.println("Impossible");
-    // }
-    Main mn = new Main();
-    System.out.println(-7 % 4);
-  }
+    public static void main(String[] args) throws Exception {
+     Scanner in = new Scanner(System.in);
+     long x = in.nextLong();
+     long y = in.nextLong();
+     long m = in.nextLong();
+     long n = in.nextLong();
+     long L = in.nextLong();
+     in.close();
+     Main mn = new Main();
+     long d = mn.gcd(L, m-n);
+     if((x-y)%d == 0){
+         for(long t=0;t<L;t++) {
+           if(((m-n)*t + (x-y))%L == 0){
+               System.out.printf("%d %n", t);
+               break;
+         }
+       }
+     }
+     else {
+       System.out.println("Impossible");
+     }
+    }
 }
