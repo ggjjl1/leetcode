@@ -8,20 +8,20 @@ public class ReverseInteger {
         int n = Math.abs(x);
         int s = 0;
         while (n / 10 != 0) {
-            if(s*10/10 != s){
+            if (s * 10 / 10 != s) {
                 return 0;
             }
-            s = s*10 + n%10;
+            s = s * 10 + n % 10;
             n = n / 10;
-            if(s*10/10 != s){
+            if (s * 10 / 10 != s) {
                 return 0;
             }
         }
-        if(s*10/10 != s) {
+        if (s * 10 / 10 != s) {
             return 0;
         }
-        s = s*10 + n%10;
-        if(x<0){
+        s = s * 10 + n % 10;
+        if (x < 0) {
             return -s;
         }
         return s;

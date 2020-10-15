@@ -9,10 +9,10 @@ import java.util.Set;
 public class ContainsDuplicate {
     public static boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<Integer>();
-        for(int e : nums){
+        for (int e : nums) {
             set.add(e);
         }
-        if(set.size() != nums.length){
+        if (set.size() != nums.length) {
             return true;
         }
         return false;
@@ -20,9 +20,9 @@ public class ContainsDuplicate {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 1};
-        if(containsDuplicate(arr)){
+        if (containsDuplicate(arr)) {
             System.out.println("存在相同元素！");
-        }else{
+        } else {
             System.out.println("不存在");
         }
     }

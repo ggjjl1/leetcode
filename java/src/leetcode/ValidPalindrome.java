@@ -6,16 +6,16 @@ package leetcode;
 public class ValidPalindrome {
     public static boolean isPalindrome(String s) {
         StringBuffer sb = new StringBuffer();
-        for(int i=0;i<s.length();i++){
-            if(Character.isLetter(s.charAt(i))) {
+        for (int i = 0; i < s.length(); i++) {
+            if (Character.isLetter(s.charAt(i))) {
                 sb.append(String.valueOf(s.charAt(i)).toLowerCase());
             }
-            if(Character.isDigit(s.charAt(i))) {
+            if (Character.isDigit(s.charAt(i))) {
                 sb.append(s.charAt(i));
             }
         }
         String str = sb.toString();
-        if(sb.reverse().toString().equals(str)){
+        if (sb.reverse().toString().equals(str)) {
             return true;
         }
         return false;
@@ -24,10 +24,10 @@ public class ValidPalindrome {
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";
         String t = "race a car";
-        if(isPalindrome(s)){
+        if (isPalindrome(s)) {
             System.out.println("s is true");
         }
-        if(isPalindrome(t)){
+        if (isPalindrome(t)) {
             System.out.println("t is true");
         }
     }

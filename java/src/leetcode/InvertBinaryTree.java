@@ -12,15 +12,18 @@ public class InvertBinaryTree {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x) { val = x; }
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
 
     public static TreeNode invertTree(TreeNode root) {
-        if(root==null){
+        if (root == null) {
             return null;
         }
         TreeNode t;
-        if(root.left!=null || root.right!=null){
+        if (root.left != null || root.right != null) {
             t = root.left;
             root.left = root.right;
             root.right = t;

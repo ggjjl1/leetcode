@@ -9,25 +9,28 @@ public class BinaryTreePaths {
     /**
      * Definition for a binary tree node.
      * public class TreeNode {
-     *     int val;
-     *     TreeNode left;
-     *     TreeNode right;
-     *     TreeNode(int x) { val = x; }
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode(int x) { val = x; }
      * }
      */
-    public static class TreeNode{
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x){val = x;}
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
 
     public List<String> binaryTreePaths(TreeNode root) {
         TreeNode node = root;
         StringBuilder stringPath = new StringBuilder();
         stringPath.append(node.val);
-        while(node.left != null){
-            stringPath.append("->"+node.left.val);
+        while (node.left != null) {
+            stringPath.append("->" + node.left.val);
         }
         return null;
     }

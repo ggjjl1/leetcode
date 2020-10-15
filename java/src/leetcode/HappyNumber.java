@@ -10,7 +10,7 @@ public class HappyNumber {
     public boolean isHappy(int n) {
         Set<Integer> set = new HashSet<Integer>();
         int s = 0;
-        while(!set.contains(n)) {
+        while (!set.contains(n)) {
             if (n == 1) {
                 return true;
             }

@@ -4,9 +4,9 @@ package leetcode;
  * Created by ggjjl1 on 9/1/15.
  */
 public class ClimbingStairs {
-    public int climbStairs(int n){
+    public int climbStairs(int n) {
         int a = 1, b = 1;
-        for(int i=1; i<n; i++){
+        for (int i = 1; i < n; i++) {
             b = a + b;
             a = b - a;
         }

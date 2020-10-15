@@ -7,23 +7,23 @@ import java.util.Set;
  * Created by ggjjl1 on 10/18/15.
  */
 public class LongestSubstringWithoutRepeatingCharacters {
-    public static int lengthOfLogestSubstring(String s){
+    public static int lengthOfLogestSubstring(String s) {
         int maxSubStrLen = 0;
-        for(int i=0;i<s.length();i++){
+        for (int i = 0; i < s.length(); i++) {
             int subStrLen = 0;
             Set wordSet = new HashSet();
-            for(int j=i;j<s.length();j++){
-                if(wordSet.contains(s.charAt(j))){
+            for (int j = i; j < s.length(); j++) {
+                if (wordSet.contains(s.charAt(j))) {
                     String newSubStr = s.substring(i, j);
-                    if(newSubStr.length() > maxSubStrLen){
+                    if (newSubStr.length() > maxSubStrLen) {
                         maxSubStrLen = newSubStr.length();
                     }
                     break;
-                }else{
+                } else {
                     wordSet.add(s.charAt(j));
                     subStrLen++;
                 }
-                if(subStrLen>maxSubStrLen){
+                if (subStrLen > maxSubStrLen) {
                     maxSubStrLen = subStrLen;
                 }
             }

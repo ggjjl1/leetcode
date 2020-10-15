@@ -10,26 +10,26 @@ public class ContainerWithMostWater {
         int max_volume = 0;
         int tmp_volume = 0;
 
-        if(height[i]<height[j]){
+        if (height[i] < height[j]) {
             max_volume = height[i] * (j - i);
-        }else{
+        } else {
             max_volume = height[j] * (j - i);
         }
 
-        while(i<j){
-            if(height[i]<height[j]){
+        while (i < j) {
+            if (height[i] < height[j]) {
                 i++;
-            }else{
+            } else {
                 j--;
             }
 
-            if(height[i]<height[j]){
+            if (height[i] < height[j]) {
                 tmp_volume = height[i] * (j - i);
-            }else{
+            } else {
                 tmp_volume = height[j] * (j - i);
             }
 
-            if(tmp_volume>=max_volume){
+            if (tmp_volume >= max_volume) {
                 max_volume = tmp_volume;
             }
         }
@@ -39,10 +39,10 @@ public class ContainerWithMostWater {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        int[] height = {1,2,3,4,5,6};
+        int[] height = {1, 2, 3, 4, 5, 6};
         System.out.println(maxArea(height));
 
         long end = System.currentTimeMillis();
-        System.out.println("运行时间: " + (end-start) + "ms");
+        System.out.println("运行时间: " + (end - start) + "ms");
     }
 }

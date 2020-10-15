@@ -6,9 +6,10 @@ import java.util.Date;
  * Created by gaojunliang on 6/3/15.
  */
 public class MaximalSquare {
-    public int maximalSquare(char[][] matrix){
+    public int maximalSquare(char[][] matrix) {
         return 1;
     }
+
     public static void main(String[] args) {
         int[] a = new int[3];
         a[0] = 0;
