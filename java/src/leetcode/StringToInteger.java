@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by ggjjl1 on 9/14/15.
  */
-public class String_to_Integer {
+public class StringToInteger {
     /**
      * 需要考虑字符串是否包含正负号，空格，转换后的数字是否超过整型表示范围
      * @param str

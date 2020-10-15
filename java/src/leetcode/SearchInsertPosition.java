@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Search_Insert_Position {
+public class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         for(int i=0;i<nums.length;++i) {
             if(target == nums[i]) {
@@ -17,7 +17,7 @@ public class Search_Insert_Position {
     }
 
     public static void main(String[] args) {
-        Search_Insert_Position sip = new Search_Insert_Position();
+        SearchInsertPosition sip = new SearchInsertPosition();
         int[] array = {1,3,5,6};
         int target = 5;
         int r = sip.searchInsert(array,target);

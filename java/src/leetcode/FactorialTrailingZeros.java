@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by gaojunliang on 8/23/15.
  */
-public class Factorial_Trailing_Zeros {
+public class FactorialTrailingZeros {
     public static int trailingZeroes(int n){
         long p = 0;
         for(long i=5;i<=n;i=i*5){

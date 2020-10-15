@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by ggjjl1 on 7/4/17.
  */
-public class Container_With_Most_Water {
+public class ContainerWithMostWater {
     public static int maxArea(int[] height) {
         int i = 0;
         int j = height.length - 1;

@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by ggjjl1 on 10/18/15.
  */
-public class Longest_Substring_Without_Repeating_Characters {
+public class LongestSubstringWithoutRepeatingCharacters {
     public static int lengthOfLogestSubstring(String s){
         int maxSubStrLen = 0;
         for(int i=0;i<s.length();i++){

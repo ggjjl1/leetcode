@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by ggjjl1 on 10/9/15.
  */
-public class Word_Pattern {
+public class WordPattern {
     public static boolean wordPattern(String pattern, String str){
         String[] strArr = str.split(" ");
         if(pattern.length() != strArr.length){

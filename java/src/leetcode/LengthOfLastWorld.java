@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by gaojunliang on 8/3/15.
  */
-public class Length_of_Last_World {
+public class LengthOfLastWorld {
     public static int lengthOfLastWord(String s) {
         if(s.length() == 0){
             return 0;

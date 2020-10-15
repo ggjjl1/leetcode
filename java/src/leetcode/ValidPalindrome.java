@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by gaojunliang on 8/4/15.
  */
-public class Valid_Palindrome {
+public class ValidPalindrome {
     public static boolean isPalindrome(String s) {
         StringBuffer sb = new StringBuffer();
         for(int i=0;i<s.length();i++){

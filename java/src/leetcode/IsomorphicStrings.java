@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by gaojunliang on 7/21/15.
  */
-public class Isomorphic_Strings {
+public class IsomorphicStrings {
     public static boolean isIsomorphic(String s, String t){
         int len_s = s.length();
         int len_t = t.length();

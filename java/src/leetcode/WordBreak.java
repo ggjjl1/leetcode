@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by gaojunliang on 7/1/15.
  */
-public class Word_Break {
+public class WordBreak {
     public boolean wordBreak(String s, Set<String> wordDick){
         int len = 0;
         for(String word: wordDick){

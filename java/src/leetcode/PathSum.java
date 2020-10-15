@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by gaojunliang on 8/3/15.
  */
-public class Path_Sum {
+public class PathSum {
     public class TreeNode {
         int val;
         TreeNode left;

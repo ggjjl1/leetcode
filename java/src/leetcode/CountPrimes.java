@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by gaojunliang on 8/3/15.
  */
-public class Count_Primes {
+public class CountPrimes {
     public static int countPrimes(int n) {
         if(n<=0){
             return 0;

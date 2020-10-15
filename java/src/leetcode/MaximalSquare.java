@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by gaojunliang on 6/3/15.
  */
-public class Maximal_Square {
+public class MaximalSquare {
     public int maximalSquare(char[][] matrix){
         return 1;
     }

@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by gaojunliang on 7/22/15.
  */
-public class Invert_Binary_Tree {
+public class InvertBinaryTree {
 
     /**
      * Definition for a binary tree node.

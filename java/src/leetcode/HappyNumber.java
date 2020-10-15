@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by gaojunliang on 8/2/15.
  */
-public class Happy_Number {
+public class HappyNumber {
     public boolean isHappy(int n) {
         Set<Integer> set = new HashSet<Integer>();
         int s = 0;

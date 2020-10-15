@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  * Created by gaojunliang on 7/25/15.
  */
-public class Contains_Duplicate_II {
+public class ContainsDuplicate2 {
     class A{
         int value;
         int index;

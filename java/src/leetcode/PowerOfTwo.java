@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by gaojunliang on 7/25/15.
  */
-public class Power_of_Two {
+public class PowerOfTwo {
     public static boolean isPowerOfTwo(int n){
         if(n<=0){
             return false;

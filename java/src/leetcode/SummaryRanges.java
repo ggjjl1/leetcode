@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by gaojunliang on 6/28/15.
  */
-public class Summary_Ranges {
+public class SummaryRanges {
     public static List<String> summaryRanges(int[] nums) {
         List list = new ArrayList();
         if(nums.length == 0){

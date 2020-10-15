@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by ggjjl1 on 9/15/15.
  */
-public class Palindrome_Number {
+public class PalindromeNumber {
     public static boolean isPalindrome(int x){
         int z = 0;
         int y = x;

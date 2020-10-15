@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by ggjjl1 on 7/1/17.
  */
-public class Longest_Palindromic_Substring {
+public class LongestPalindromicSubstring {
     public static String longestPalindrome(String s) {
         int max_length = 1;
         int position = 0;

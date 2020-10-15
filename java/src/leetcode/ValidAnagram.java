@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by gaojunliang on 8/2/15.
  */
-public class Valid_Anagram {
+public class ValidAnagram {
     public static boolean isAnagram(String s, String t) {
         if(s.length() != t.length()){
             return false;

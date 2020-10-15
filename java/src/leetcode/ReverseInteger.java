@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by gaojunliang on 8/3/15.
  */
-public class Reverse_Integer {
+public class ReverseInteger {
     public static int reverse(int x) {
         int n = Math.abs(x);
         int s = 0;

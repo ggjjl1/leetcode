@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by ggjjl1 on 9/14/15.
  */
-public class Sqrt_x {
+public class SqrtX {
     public static int mySqrt(int x){
         if(x==0){
             return 0;

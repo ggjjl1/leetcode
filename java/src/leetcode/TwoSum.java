@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by gaojunliang on 9/18/15.
  */
-public class Two_Sum {
+public class TwoSum {
     public static int[] twoSum(int[] nums, int target){
         int[] z={0,0};
         for(int i=0;i<nums.length-1;i++){

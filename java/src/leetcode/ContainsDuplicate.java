@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by gaojunliang on 8/2/15.
  */
-public class Contains_Duplicate {
+public class ContainsDuplicate {
     public static boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<Integer>();
         for(int e : nums){
