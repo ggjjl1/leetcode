@@ -40,7 +40,7 @@ public class CountPrimes {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        System.out.println("小于10的素数个数：" + countPrimes(100000000));
+        System.out.println("10亿内的素数个数：" + countPrimes(100000000));
         long end = System.currentTimeMillis();
         long time = end - start;
         if (time > 1000) {
