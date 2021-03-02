@@ -1,4 +1,4 @@
-package leetcode;
+package com.ggjjl1.leetcode;
 
 import java.util.Arrays;
 
@@ -18,5 +18,9 @@ public class AssignCookies {
             }
         }
         return r;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("abc");
     }
 }

@@ -1,4 +1,4 @@
-package leetcode;
+package com.ggjjl1.leetcode;
 
 public class MonotoneIncreasingDigits {
     public int monotoneIncreasingDigits(int N) {
