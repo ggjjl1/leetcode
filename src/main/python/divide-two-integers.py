@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+两个数相除
+"""
 
 class Solution(object):
     def divide(self, dividend, divisor):
@@ -9,15 +12,9 @@ class Solution(object):
         :type divisor: int
         :rtype: int
         """
-        m, n = abs(dividend), abs(divisor)
-        r = 0
-        while m > n:
-            m = m - n
-            r = r + 1
-
-        return r if dividend * divisor >= 0 else -r
+        return dividend / divisor
 
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.divide(-2147483648, -1))
+    print(s.divide(100, 3))
